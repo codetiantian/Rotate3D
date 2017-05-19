@@ -75,7 +75,7 @@ extension ViewController {
         dice3.layer.transform = diceTransform
         
         //4
-        let dice4 = UIImageView.init(image: UIImage(named: "dice4jpg"))
+        let dice4 = UIImageView.init(image: UIImage(named: "dice4.jpg"))
         dice4.frame = CGRect(x: viewFrame.maxX / 2 - imageViewWH / 2, y: 0, width: imageViewWH, height: imageViewWH)
         diceTransform = CATransform3DRotate(CATransform3DIdentity, (CGFloat.pi / 2), 1, 0, 0)
         diceTransform = CATransform3DTranslate(diceTransform, 0, 0, imageViewWH / 2)
